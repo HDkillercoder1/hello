@@ -1,50 +1,61 @@
-ServiceNow Integration: Use ServiceNow to automate ticket creation and management. The AI can analyze incoming requests and automatically create and assign tickets to the appropriate teams.
-Splunk Integration: Integrate Splunk to monitor system logs and detect anomalies. The AI can use this data to identify potential issues and create tickets in ServiceNow for proactive resolution.
+10.236.59.103 - Securefile, no jobs found in SFT
+JobStreamID
+BP0521_RCAM_DataDumpFiles_PROD
+BP0521_RCAM_IISLogFiles_PROD
+i518106_AdminMessageExport_Prod
+i518106_DB_Analytics
+i518106_AlertExport_Prod
+i518106_AlertHistoryExport_Files_Prod
+i518106_AuditExport_Files_Prod
+i518106_EmailBounceBackExport_Prod
+i518106_PasswordHistoryExport_Prod
+i518106_PendingCDVExport_Prod
+i518106_PendingPaymentExport_Prod
+i518106_UserDataExport_Prod
+BP0972_Draft5CLLX_Target_PROD
+BP0972_Draft5RCAM_Target_PROD
+BP0521_RCAM_ACH_PROD
+BP0521_RCAM_BillingDetailRpt
+BP0521_RCAM_TranHistorytoMF
+BP0521_RCAM_StmtHistorytoMF
+BP0521_RCAM_BillingSummaryRpt
+BP0521_RCAM_eZBusinessRpt
+BP0521_RCAM_eZcardSAPRpt
+ 
+10.236.59.104 - no jobs in SFT and securefile
+ 
+10.236.54.67 - no jobs in SFT and Securefile
+ 
+10.236.54.68 - no jobs in SFT and securefile
+ 
+10.236.59.107 - securefile, no jobs for SFT
+JobStreamID
+BP0972_Draft5PaymentsCLLX_Target_UAT
+BP0972_Draft5RCAM_Target_UAT
+BP0521_RCAM_Deconversion_UAT
+BP0521_RCAM_Deconversion_Prod
+BP0521_RCAM_eZBusinessRpt_UAT
+BP0521_RCAM_BillingDetailRpt_UAT
+BP0521_RCAM_BillingSummaryRpt_UAT
+BP0521_RCAM_eZcardSAPRpt_UAT
+ 
+10.236.59.108 - no jobs for SFT and securefile
  
  
-Create a ServiceNow Account:
-If you don't already have a ServiceNow account, sign up for one and set up your instance.
-Define Ticket Creation Rules:
-Identify the types of incoming requests that need to be automated.
-Define rules for ticket creation, such as priority levels, assignment groups, and escalation paths.
-Develop AI Algorithms:
-Create AI algorithms to analyze incoming requests. These algorithms should classify requests based on predefined criteria and determine the appropriate actions.
-Implement API Integration:
-Use ServiceNow's REST API to automate ticket creation and management. The AI can call the API to create tickets, update statuses, and assign them to the appropriate teams.
+SuPRODeZD4-DXFiles - Securefile
+JobStreamID
+I022207_ControlTable
+ 
+SuPRODeZD4-DXFiles - SFT
+JobStreamID
+I000P1C_P1CeZDVRATE_PRD
+I000P1C_P1CeZDTMPID_PRD
+I000P1C_P1CeZDCLITF_PRD
+I00002_TemplateID
+I00002_RateTableBC37
+I00002_RatesFees
  
  
-Set Up Splunk Integration
-Install and Configure Splunk:
-Install Splunk on your servers and configure it to collect logs from your systems and applications.
-Define Monitoring Parameters:
-Identify the key metrics and logs that need to be monitored for anomalies. This could include system performance metrics, error logs, and security events.
-Develop AI Anomaly Detection Algorithms:
-Create AI algorithms to analyze the collected logs and detect anomalies. These algorithms should identify patterns that indicate potential issues.
-Integrate Splunk with ServiceNow:
-Use Splunk's integration capabilities to send alerts to ServiceNow. When an anomaly is detected, the AI can trigger an alert that creates a ticket in ServiceNow for proactive resolution.
- 
- 
-Step 3: Implement the Automated Workflow
-Set Up Event Rules in ServiceNow:
-Define event rules in ServiceNow to handle incoming alerts from Splunk. These rules should specify how tickets are created and assigned based on the type of alert.
-Test the Integration:
-Conduct thorough testing to ensure that the integration between ServiceNow and Splunk is working correctly. Test various scenarios to verify that tickets are created and assigned as expected.
-Deploy the Solution:
-Once testing is complete, deploy the solution to your production environment. Monitor the system closely during the initial deployment to ensure everything is functioning as intended.
-Continuous Improvement:
-Continuously monitor the performance of the AI algorithms and the integration. Gather feedback from users and make improvements as needed to enhance the efficiency and accuracy of the automated task management system.
- 
- 
-Example Workflow:
-Incoming Request:
-An incoming request is received by the AI system (e.g., an email, a form submission, or a system alert).
-AI Analysis:
-The AI analyzes the request to determine its nature and urgency.
-Ticket Creation:
-Based on the analysis, the AI uses the ServiceNow API to create a ticket with the appropriate details (e.g., priority, description, assignment group).
-Splunk Monitoring:
-Splunk continuously monitors system logs for anomalies.
-Anomaly Detection:
-When an anomaly is detected, Splunk sends an alert to ServiceNow.
-Proactive Resolution:
-ServiceNow creates a ticket for the detected anomaly and assigns it to the relevant team for proactive resolution.
+SuPRODRTDX-CTFile - Securefile, no jobs for SFT
+JobStreamID
+I022207_ControlTable
